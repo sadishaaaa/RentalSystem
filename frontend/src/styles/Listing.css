@@ -1,0 +1,30 @@
+
+.search__box {
+    border: 1px solid #0707072f;
+    padding: 2px 4px;
+    display: flex;
+    align-items: right;
+    border-radius: 50px;
+    background: #fff;
+  }
+  
+  .search__box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+  
+  }
+  
+  .search__box input::placeholder {
+    font-size: 0.8rem;
+  }
+  .search__box span i {
+    color: rgba(0, 0, 0, 0.555);
+    padding: 1px;
+    cursor: pointer;
+  }
+  .rental{
+    justify-content: space-between;
+  }

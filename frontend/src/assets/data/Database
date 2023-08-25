@@ -1,0 +1,33 @@
+// Import the MySQL library
+const mysql = require('mysql');
+
+// Create a connection object
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'secret',
+  database: 'test'
+});
+
+// Connect to the database
+connection.connect((err) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+
+  console.log('Connected to the database.');
+});
+
+// Execute a query
+connection.query('SELECT * FROM users', (error, results) => {
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  console.log(results);
+});
+
+// Close the connection
+connection.end();

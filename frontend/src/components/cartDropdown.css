@@ -1,0 +1,30 @@
+.dropdown-menu {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 0.5rem;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 1rem;
+    color: black;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .float-end {
+    float: right;
+  }
+  

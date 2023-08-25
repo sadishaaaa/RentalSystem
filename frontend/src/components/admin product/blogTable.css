@@ -1,0 +1,68 @@
+/* AddBlogModal.css */
+.add-blog-modal {
+  .ant-modal-header {
+    background-color: #f0f2f5;
+  }
+
+  .ant-modal-title {
+    color: #333;
+  }
+}
+
+/* Blogs.css */
+.datatable {
+  padding: 20px;
+}
+
+.datatableTitle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-card {
+  width: calc(31.33% - 20px); /* Three cards in a row with gap */
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 10px;
+}
+
+.blog-content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.blog-content p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.deleteButton {
+  color: #f5222d;
+}
+
+/* Main component's CSS */

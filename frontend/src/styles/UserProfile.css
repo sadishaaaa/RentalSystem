@@ -1,0 +1,120 @@
+/* userProfile.css */
+
+/* Add some spacing and background color to the page */
+.page-content {
+    padding: 3rem;
+    background-color: #f5f5f5;
+  }
+  
+  /* Improve card styles */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(69, 90, 100, 0.1);
+    border: none;
+    margin-bottom: 30px;
+  }
+  
+  .user-profile {
+    padding: 30px 0;
+  }
+  
+  /* Adjust profile image styles */
+  .img-radius {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  /* Improve section headings */
+  .f-w-600 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .m-b-20 {
+    margin-bottom: 15px;
+  }
+  
+  /* Add some spacing between elements */
+  .m-t-40 {
+    margin-top: 40px;
+  }
+  
+  .m-b-10 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the Change Password button */
+  .btn-warning {
+    background-color: #f29263;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ee5a6f;
+  }
+  
+  /* Style the file upload button */
+  .btn-primary {
+    background-color: #f29263;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ee5a6f;
+  }
+  
+  /* Center align the file upload input */
+  .form-control[type="file"] {
+    display: none;
+  }
+  
+  .form-control[type="file"] + .input-group-prepend {
+    cursor: pointer;
+  }
+  
+  /* Style the "License" and "Citizenship" headings */
+  .text-center {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Adjust the size of the file upload preview images */
+  .img-fluid {
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Hide the scrollbar for the file upload preview */
+  .row::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Optional: Add a gradient background to the "License" and "Citizenship" sections */
+  .b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+    background-image: linear-gradient(to right, #f29263, #ee5a6f);
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .b-b-default h6 {
+    margin: 0;
+    color: #fff;
+  }
+  
+
+  
